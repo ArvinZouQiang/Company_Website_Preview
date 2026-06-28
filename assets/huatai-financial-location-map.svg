@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">华泰金融大厦区位示意图</title>
+  <desc id="desc">上海浦东华泰金融大厦、黄浦江、地铁8号线中华艺术宫站及周边站点的简略位置示意。</desc>
+  <defs>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#0b2436" flood-opacity="0.18"/>
+    </filter>
+    <filter id="pinShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#7b1d16" flood-opacity="0.28"/>
+    </filter>
+    <style>
+      .label { font-family: "PingFang SC", "Microsoft YaHei", Arial, sans-serif; fill: #334155; font-size: 30px; font-weight: 700; }
+      .minor-label { font-family: "PingFang SC", "Microsoft YaHei", Arial, sans-serif; fill: #64748b; font-size: 24px; font-weight: 650; }
+      .small { font-family: "PingFang SC", "Microsoft YaHei", Arial, sans-serif; fill: #64748b; font-size: 20px; font-weight: 600; }
+      .road-name { font-family: "PingFang SC", "Microsoft YaHei", Arial, sans-serif; fill: #7c8794; font-size: 23px; font-weight: 700; }
+      .station { fill: #ffffff; stroke: #1689c7; stroke-width: 7; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="#f6f8f5"/>
+
+  <path d="M-70 610 C160 550 355 540 565 620 C760 692 950 785 1185 745 C1395 710 1510 642 1670 650 L1670 970 L-70 970 Z" fill="#e2f0e3"/>
+  <path d="M1020 510 C1125 472 1274 482 1378 545 C1485 610 1490 740 1370 788 C1250 836 1087 786 1002 698 C928 622 928 545 1020 510 Z" fill="#dcecdf"/>
+  <path d="M-80 166 C140 238 345 260 550 230 C778 198 910 134 1110 136 C1302 137 1478 185 1680 123 L1680 326 C1470 378 1266 333 1082 339 C898 346 742 415 514 415 C300 415 120 354 -80 296 Z" fill="#b7dceb"/>
+  <path d="M-80 166 C140 238 345 260 550 230 C778 198 910 134 1110 136 C1302 137 1478 185 1680 123" fill="none" stroke="#8cc4dc" stroke-width="4" opacity="0.55"/>
+  <path d="M-80 296 C120 354 300 415 514 415 C742 415 898 346 1082 339 C1266 333 1470 378 1680 326" fill="none" stroke="#8cc4dc" stroke-width="4" opacity="0.55"/>
+
+  <text x="302" y="306" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="44" font-weight="800" fill="#2b7896" opacity="0.92" transform="rotate(-5 302 306)">黄浦江</text>
+  <text x="103" y="205" class="small" fill="#5b7890">浦西</text>
+  <text x="1320" y="448" class="small" fill="#5b7890">浦东 · 世博板块</text>
+
+  <g opacity="0.72">
+    <path d="M-40 438 C288 410 604 390 815 411 C1010 431 1180 412 1392 386 C1490 374 1580 374 1644 386" fill="none" stroke="#ffffff" stroke-width="24" stroke-linecap="round"/>
+    <path d="M-40 438 C288 410 604 390 815 411 C1010 431 1180 412 1392 386 C1490 374 1580 374 1644 386" fill="none" stroke="#c9d1d8" stroke-width="9" stroke-linecap="round"/>
+
+    <path d="M480 486 C660 455 824 430 1016 424 C1215 418 1418 435 1630 466" fill="none" stroke="#ffffff" stroke-width="22" stroke-linecap="round"/>
+    <path d="M480 486 C660 455 824 430 1016 424 C1215 418 1418 435 1630 466" fill="none" stroke="#c7ced6" stroke-width="8" stroke-linecap="round"/>
+
+    <path d="M839 72 C850 218 856 355 882 447 C910 551 947 665 1020 868" fill="none" stroke="#ffffff" stroke-width="23" stroke-linecap="round"/>
+    <path d="M839 72 C850 218 856 355 882 447 C910 551 947 665 1020 868" fill="none" stroke="#c6cdd5" stroke-width="8" stroke-linecap="round"/>
+
+    <path d="M1028 230 C1018 355 1021 516 1045 691 C1055 765 1090 840 1136 930" fill="none" stroke="#ffffff" stroke-width="20" stroke-linecap="round"/>
+    <path d="M1028 230 C1018 355 1021 516 1045 691 C1055 765 1090 840 1136 930" fill="none" stroke="#cad1d8" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <text x="1062" y="382" class="road-name" transform="rotate(-7 1062 382)">世博大道</text>
+  <text x="720" y="463" class="road-name" transform="rotate(-8 720 463)">博成路</text>
+  <text x="897" y="303" class="road-name" transform="rotate(80 897 303)">上南路</text>
+  <text x="1070" y="565" class="road-name" transform="rotate(82 1070 565)">云台路</text>
+
+  <g opacity="0.92">
+    <path d="M591 116 C657 230 800 350 882 447 C907 500 920 545 939 577 C1006 650 1044 704 1071 742" fill="none" stroke="#ffffff" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M591 116 C657 230 800 350 882 447 C907 500 920 545 939 577 C1006 650 1044 704 1071 742" fill="none" stroke="#1689c7" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(694 304) rotate(38)">
+    <rect x="-47" y="-27" width="94" height="54" rx="27" fill="#1689c7"/>
+    <text x="0" y="10" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="28" font-weight="900" fill="#ffffff">8号线</text>
+  </g>
+
+  <circle class="station" cx="591" cy="116" r="18"/>
+  <text x="620" y="92" class="minor-label">西藏南路站</text>
+
+  <circle class="station" cx="939" cy="577" r="18"/>
+  <text x="963" y="587" class="minor-label">耀华路站</text>
+
+  <circle class="station" cx="1071" cy="742" r="18"/>
+  <text x="1096" y="754" class="minor-label">成山路站</text>
+
+  <g filter="url(#softShadow)">
+    <circle cx="882" cy="447" r="31" fill="#ffffff"/>
+    <circle cx="882" cy="447" r="22" fill="#1689c7"/>
+    <circle cx="882" cy="447" r="8" fill="#ffffff"/>
+  </g>
+  <g>
+    <rect x="570" y="482" width="286" height="82" rx="8" fill="#ffffff" filter="url(#softShadow)"/>
+    <text x="596" y="519" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="30" font-weight="900" fill="#0f5f92">中华艺术宫站</text>
+    <text x="596" y="550" class="small" fill="#1689c7">地铁8号线最近站点</text>
+  </g>
+
+  <path d="M882 447 C908 421 938 408 977 411" fill="none" stroke="#e34b36" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 12"/>
+  <text x="848" y="394" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="800" fill="#b83226">步行约200米</text>
+
+  <g filter="url(#pinShadow)" transform="translate(977 411)">
+    <path d="M0 -74 C-32 -74 -58 -48 -58 -17 C-58 24 0 72 0 72 C0 72 58 24 58 -17 C58 -48 32 -74 0 -74 Z" fill="#e34b36"/>
+    <circle cx="0" cy="-18" r="21" fill="#ffffff"/>
+    <circle cx="0" cy="-18" r="10" fill="#e34b36"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <path d="M1040 330 H1374 C1403 330 1426 353 1426 382 V482 C1426 511 1403 534 1374 534 H1040 C1011 534 988 511 988 482 V382 C988 353 1011 330 1040 330 Z" fill="#ffffff"/>
+    <path d="M998 432 L956 417 L998 402 Z" fill="#ffffff"/>
+    <text x="1032" y="381" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="36" font-weight="950" fill="#b83226">华泰金融大厦</text>
+    <text x="1032" y="423" class="minor-label">浦东新区博成路1101号</text>
+    <text x="1032" y="463" class="small">近中华艺术宫站 / 黄浦江南岸</text>
+    <rect x="1032" y="484" width="166" height="27" rx="13.5" fill="#fff0ec"/>
+    <text x="1050" y="505" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="800" fill="#b83226">项目定位点</text>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="72" y="54" width="474" height="128" rx="8" fill="#ffffff" opacity="0.96"/>
+    <text x="104" y="105" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="38" font-weight="950" fill="#10243d">华泰金融大厦区位图</text>
+    <text x="106" y="148" class="small">上海浦东 · 世博滨江 · 地铁8号线</text>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="1190" y="62" width="338" height="132" rx="8" fill="#ffffff" opacity="0.96"/>
+    <circle cx="1226" cy="102" r="11" fill="#e34b36"/>
+    <text x="1252" y="111" class="small">华泰金融大厦</text>
+    <path d="M1212 146 H1240" stroke="#1689c7" stroke-width="9" stroke-linecap="round"/>
+    <text x="1252" y="154" class="small">地铁8号线及站点</text>
+    <rect x="1212" y="172" width="28" height="13" rx="6.5" fill="#b7dceb"/>
+    <text x="1252" y="187" class="small">黄浦江区位</text>
+  </g>
+
+  <text x="72" y="840" class="small" fill="#8291a3">基于高德定位信息重绘，示意图不作为精确测绘依据</text>
+</svg>
